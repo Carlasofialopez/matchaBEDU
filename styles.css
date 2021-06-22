@@ -1,0 +1,98 @@
+CSS
+h1{
+    color: rgb(75, 75, 134);
+}
+
+h2{
+    color: #46484c;
+}
+
+strong{
+   color:#8b8b8bcc ;
+}
+
+button{
+    color: #fff;
+    background-color: #12474b;
+}
+
+body{
+    background-color: #fffbf7;
+    background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png');
+}
+.fixed-header{
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.header {
+    margin: 20px 20px 0px 20px;
+    font-size: 0%;
+    line-height: 45px;
+  }
+
+li{
+display: inline;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    line-height: 45px;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 15%;
+}
+.navbar {
+    color:#025157 ;
+    width: 70%;
+    line-height: 45px;
+    text-align: center;
+}
+
+.actions{
+    width: 15%;
+    font-size: 14px;
+    text-align: right;
+}
+.actions a{
+    color:#67b54b ;
+}
+
+.menu-item {
+    margin: 0 25px 0 25px;
+}
+.actions button{
+    color: white;
+    background-color: #67b54b;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    border: 0px;
+    border-radius: 5px;
+}
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.video-promo{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.publicidad{
+    margin-left: 0px;
+}
+.publicidad h1{
+    color: #025157;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
