@@ -112,6 +112,10 @@ display: inline;
     border-radius: 5px;
     font-family:"Open Sans", sans-serif;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.tarjetas-art-texto{
     display: flex;
     flex-direction: column;
 }
@@ -119,20 +123,28 @@ display: inline;
     width: 50px;
     align-self: flex-start;
 }
-.tarjetas-art>h3{
+.tarjetas-art-img{
+    display: flex;
+    align-self:center;
+    width: 360px;
+    height: 230px;
+    position: relative;
+}
+.tarjetas-art-texto>h3{
     font-size: 25px;
     font-weight: 300;
-    align-self:flex-start;
+    align-self:left;
 }
-.tarjetas-art>p{
+.tarjetas-art-texto>p{
     color: #7e7e7e;
     font-weight: 400;
     line-height: 25px;
     margin-top: 0px;
 }
-.tarjetas-art > footer{
+.tarjetas-art-texto > footer{
     color:#67b54b;
 }
+
 .usuarios-matcha{
     display: flex;
     background-color: #a1d683;
@@ -238,7 +250,7 @@ display: inline;
 }
 
 .how-it-works{
-    padding: 70px 100px 70px 100px;
+    padding: 30px 100px 30px 100px;
     background-color: #fffbf7;
     text-align: center;
 }
@@ -246,48 +258,63 @@ display: inline;
     color: #025157;
     font-size: 50px;
     font-family: "Alegreya", serif;
-    font-weight: 90%;
+    font-weight: bolder;
+    margin-bottom: 8px;
 }
 .how-it-works> p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-    line-height: 30px;
-    color: #343434;
+    line-height: 28px;
+    color: #46484c;
 }
+.how-it-works> p> a{
+color: #67b54b;
+}
+
 .how-it-works>button{
     color: white;
     background-color: #025157;
-    padding: 12px 14px 12px 14px;
+    padding: 15px 20px 15px 20px;
     border: 0px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 14px;
 }
 .hit-articles{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(4,200px);
+    column-gap: 3px;
 }
 
 .hit-pasos{
     background-color: white;
     padding: 25px;
-    border-radius: 10px;
-    height: 600px;
+    border-radius: 5px;
+    height: 550px;
     margin: 10px;
     border: 1px #dadada solid;
+    width: 200px;
+    margin-top: 50px;
 }
-
+.hit-pasos>div{
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+    grid-template-rows: repeat(2,fr);
+}
 .hit-step-icon{
     width: 20px;
     position: absolute;
-    align-items:flex-end;
-   
+}
+.hit-step-img{
+    width: 100%;
+    height: 300px;
 }
 
 .hit-pasos>h1{
     color: #025157;
     font-size: 30px;
     font-family: "Alegreya", serif;
+    margin-bottom: 20px;
 }
 
 .hit-pasos>p{
